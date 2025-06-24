@@ -1,0 +1,221 @@
+Channels:
+ - conda-forge
+ - defaults
+ - hansbuehler
+Platform: osx-arm64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /Users/Krish/miniconda3/envs/deephedging
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    absl-py-2.1.0              |     pyhd8ed1ab_1         105 KB  conda-forge
+    aiohappyeyeballs-2.4.4     |     pyhd8ed1ab_1          19 KB  conda-forge
+    aiohttp-3.11.11            |  py310hc74094e_0         743 KB  conda-forge
+    aiosignal-1.3.2            |     pyhd8ed1ab_0          13 KB  conda-forge
+    astunparse-1.6.3           |     pyhd8ed1ab_3          18 KB  conda-forge
+    async-timeout-5.0.1        |     pyhd8ed1ab_1          11 KB  conda-forge
+    attrs-24.3.0               |     pyh71513ae_0          55 KB  conda-forge
+    blinker-1.9.0              |     pyhff2d567_0          14 KB  conda-forge
+    brotli-python-1.0.9        |  py310h0f1eb42_8         365 KB  conda-forge
+    cached-property-1.5.2      |       hd8ed1ab_1           4 KB  conda-forge
+    cached_property-1.5.2      |     pyha770c72_1          11 KB  conda-forge
+    cachetools-5.5.0           |     pyhd8ed1ab_1          14 KB  conda-forge
+    certifi-2024.12.14         |     pyhd8ed1ab_0         158 KB  conda-forge
+    cffi-1.17.1                |  py310h497396d_0         224 KB  conda-forge
+    charset-normalizer-3.4.1   |     pyhd8ed1ab_0          46 KB  conda-forge
+    click-8.1.8                |     pyh707e725_0          83 KB  conda-forge
+    cryptography-44.0.0        |  py310h69cbf43_0         1.3 MB  conda-forge
+    flatbuffers-22.12.06       |       hb7217d7_2         1.1 MB  conda-forge
+    frozenlist-1.5.0           |  py310hf9df320_0          52 KB  conda-forge
+    gast-0.4.0                 |     pyh9f0ad1d_0          12 KB  conda-forge
+    google-auth-2.37.0         |     pyhd8ed1ab_0         113 KB  conda-forge
+    google-pasta-0.2.0         |     pyhd8ed1ab_2          48 KB  conda-forge
+    grpcio-1.51.1              |  py310h63a0e3a_1         661 KB  conda-forge
+    h2-4.1.0                   |     pyhd8ed1ab_1          51 KB  conda-forge
+    h5py-3.9.0                 |nompi_py310he3619cb_100         1.0 MB  conda-forge
+    hdf5-1.14.0                |nompi_h6b85c65_102         3.0 MB  conda-forge
+    hpack-4.0.0                |     pyhd8ed1ab_1          29 KB  conda-forge
+    hyperframe-6.0.1           |     pyhd8ed1ab_1          17 KB  conda-forge
+    idna-3.10                  |     pyhd8ed1ab_1          49 KB  conda-forge
+    importlib-metadata-8.5.0   |     pyha770c72_1          28 KB  conda-forge
+    keras-2.11.0               |     pyhd8ed1ab_0         842 KB  conda-forge
+    keras-preprocessing-1.1.2  |     pyhd8ed1ab_1          37 KB  conda-forge
+    krb5-1.21.3                |       hf3e1bf2_0         1.2 MB
+    libaec-1.0.6               |       hb7217d7_1          27 KB  conda-forge
+    libcurl-8.4.0              |       h2d989ff_0         341 KB  conda-forge
+    libgrpc-1.51.1             |       hb15be72_1         3.0 MB  conda-forge
+    libnghttp2-1.52.0          |       hae82a92_0         551 KB  conda-forge
+    libprotobuf-3.21.12        |       hb5ab8b9_0         1.7 MB  conda-forge
+    libssh2-1.11.0             |       h7a5bd25_0         250 KB  conda-forge
+    markupsafe-3.0.2           |  py310hc74094e_1          22 KB  conda-forge
+    multidict-6.1.0            |  py310hdf261b0_1          51 KB  conda-forge
+    numpy-1.26.4               |  py310h3b2db8e_0          12 KB
+    numpy-base-1.26.4          |  py310ha9811e2_0         5.8 MB
+    oauthlib-3.2.2             |     pyhd8ed1ab_1          95 KB  conda-forge
+    opt_einsum-3.4.0           |     pyhd8ed1ab_1          61 KB  conda-forge
+    platformdirs-4.3.6         |     pyhd8ed1ab_1          20 KB  conda-forge
+    pooch-1.8.2                |     pyhd8ed1ab_1          53 KB  conda-forge
+    propcache-0.2.1            |  py310h078409c_0          46 KB  conda-forge
+    protobuf-4.21.12           |  py310h0f1eb42_0         280 KB  conda-forge
+    pyasn1-0.6.1               |     pyhd8ed1ab_2          61 KB  conda-forge
+    pyasn1-modules-0.4.1       |     pyhd8ed1ab_1          94 KB  conda-forge
+    pycparser-2.22             |     pyh29332c3_1         108 KB  conda-forge
+    pyjwt-2.10.1               |     pyhd8ed1ab_0          25 KB  conda-forge
+    pyopenssl-24.3.0           |     pyhd8ed1ab_0         120 KB  conda-forge
+    pysocks-1.7.1              |     pyha55dd90_7          21 KB  conda-forge
+    python-3.10.13             |h2469fbe_1_cpython        11.1 MB  conda-forge
+    python-flatbuffers-24.12.23|     pyhe33e51e_0          34 KB  conda-forge
+    python_abi-3.10            |          5_cp310           6 KB  conda-forge
+    pyu2f-0.1.5                |     pyhd8ed1ab_1          36 KB  conda-forge
+    re2-2023.02.01             |       hb7217d7_0         165 KB  conda-forge
+    requests-2.32.3            |     pyhd8ed1ab_1          57 KB  conda-forge
+    requests-oauthlib-2.0.0    |     pyhd8ed1ab_1          25 KB  conda-forge
+    rsa-4.9                    |     pyhd8ed1ab_1          30 KB  conda-forge
+    scipy-1.10.1               |  py310ha0d8a01_0        19.0 MB  conda-forge
+    tensorboard-2.11.2         |     pyhd8ed1ab_0         5.4 MB  conda-forge
+    tensorboard-data-server-0.6.1|  py310hfc83b78_4         2.5 MB  conda-forge
+    tensorflow-2.11.0          |cpu_py310h6ecea76_0          26 KB  conda-forge
+    tensorflow-base-2.11.0     |cpu_py310hb1e6bfe_0       180.4 MB  conda-forge
+    tensorflow-estimator-2.11.0|cpu_py310h238a819_0         622 KB  conda-forge
+    termcolor-2.5.0            |     pyhd8ed1ab_1          12 KB  conda-forge
+    typing-extensions-4.12.2   |       hd8ed1ab_1          10 KB  conda-forge
+    typing_extensions-4.12.2   |     pyha770c72_1          39 KB  conda-forge
+    urllib3-2.3.0              |     pyhd8ed1ab_0          98 KB  conda-forge
+    werkzeug-3.1.3             |     pyhd8ed1ab_1         238 KB  conda-forge
+    wrapt-1.17.0               |  py310h078409c_0          53 KB  conda-forge
+    yarl-1.18.3                |  py310h078409c_0         126 KB  conda-forge
+    zstandard-0.23.0           |  py310h2665a74_1         313 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       244.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  absl-py            conda-forge/noarch::absl-py-2.1.0-pyhd8ed1ab_1 
+  aiohappyeyeballs   conda-forge/noarch::aiohappyeyeballs-2.4.4-pyhd8ed1ab_1 
+  aiohttp            conda-forge/osx-arm64::aiohttp-3.11.11-py310hc74094e_0 
+  aiosignal          conda-forge/noarch::aiosignal-1.3.2-pyhd8ed1ab_0 
+  astunparse         conda-forge/noarch::astunparse-1.6.3-pyhd8ed1ab_3 
+  async-timeout      conda-forge/noarch::async-timeout-5.0.1-pyhd8ed1ab_1 
+  attrs              conda-forge/noarch::attrs-24.3.0-pyh71513ae_0 
+  blinker            conda-forge/noarch::blinker-1.9.0-pyhff2d567_0 
+  brotli-python      conda-forge/osx-arm64::brotli-python-1.0.9-py310h0f1eb42_8 
+  c-ares             conda-forge/osx-arm64::c-ares-1.34.4-h5505292_0 
+  cached-property    conda-forge/noarch::cached-property-1.5.2-hd8ed1ab_1 
+  cached_property    conda-forge/noarch::cached_property-1.5.2-pyha770c72_1 
+  cachetools         conda-forge/noarch::cachetools-5.5.0-pyhd8ed1ab_1 
+  certifi            conda-forge/noarch::certifi-2024.12.14-pyhd8ed1ab_0 
+  cffi               conda-forge/osx-arm64::cffi-1.17.1-py310h497396d_0 
+  charset-normalizer conda-forge/noarch::charset-normalizer-3.4.1-pyhd8ed1ab_0 
+  click              conda-forge/noarch::click-8.1.8-pyh707e725_0 
+  cryptography       conda-forge/osx-arm64::cryptography-44.0.0-py310h69cbf43_0 
+  flatbuffers        conda-forge/osx-arm64::flatbuffers-22.12.06-hb7217d7_2 
+  frozenlist         conda-forge/osx-arm64::frozenlist-1.5.0-py310hf9df320_0 
+  gast               conda-forge/noarch::gast-0.4.0-pyh9f0ad1d_0 
+  giflib             conda-forge/osx-arm64::giflib-5.2.2-h93a5062_0 
+  google-auth        conda-forge/noarch::google-auth-2.37.0-pyhd8ed1ab_0 
+  google-auth-oauth~ conda-forge/noarch::google-auth-oauthlib-0.4.6-pyhd8ed1ab_0 
+  google-pasta       conda-forge/noarch::google-pasta-0.2.0-pyhd8ed1ab_2 
+  grpcio             conda-forge/osx-arm64::grpcio-1.51.1-py310h63a0e3a_1 
+  h2                 conda-forge/noarch::h2-4.1.0-pyhd8ed1ab_1 
+  h5py               conda-forge/osx-arm64::h5py-3.9.0-nompi_py310he3619cb_100 
+  hdf5               conda-forge/osx-arm64::hdf5-1.14.0-nompi_h6b85c65_102 
+  hpack              conda-forge/noarch::hpack-4.0.0-pyhd8ed1ab_1 
+  hyperframe         conda-forge/noarch::hyperframe-6.0.1-pyhd8ed1ab_1 
+  icu                conda-forge/osx-arm64::icu-70.1-h6b3803e_0 
+  idna               conda-forge/noarch::idna-3.10-pyhd8ed1ab_1 
+  importlib-metadata conda-forge/noarch::importlib-metadata-8.5.0-pyha770c72_1 
+  keras              conda-forge/noarch::keras-2.11.0-pyhd8ed1ab_0 
+  keras-preprocessi~ conda-forge/noarch::keras-preprocessing-1.1.2-pyhd8ed1ab_1 
+  krb5               pkgs/main/osx-arm64::krb5-1.21.3-hf3e1bf2_0 
+  libabseil          conda-forge/osx-arm64::libabseil-20220623.0-cxx17_h28b99d4_6 
+  libaec             conda-forge/osx-arm64::libaec-1.0.6-hb7217d7_1 
+  libblas            conda-forge/osx-arm64::libblas-3.9.0-16_osxarm64_openblas 
+  libcblas           conda-forge/osx-arm64::libcblas-3.9.0-16_osxarm64_openblas 
+  libcurl            conda-forge/osx-arm64::libcurl-8.4.0-h2d989ff_0 
+  libedit            pkgs/main/osx-arm64::libedit-3.1.20230828-h80987f9_0 
+  libev              conda-forge/osx-arm64::libev-4.33-h93a5062_2 
+  libgrpc            conda-forge/osx-arm64::libgrpc-1.51.1-hb15be72_1 
+  liblapack          conda-forge/osx-arm64::liblapack-3.9.0-16_osxarm64_openblas 
+  libnghttp2         conda-forge/osx-arm64::libnghttp2-1.52.0-hae82a92_0 
+  libprotobuf        conda-forge/osx-arm64::libprotobuf-3.21.12-hb5ab8b9_0 
+  libsqlite          conda-forge/osx-arm64::libsqlite-3.46.0-hfb93653_0 
+  libssh2            conda-forge/osx-arm64::libssh2-1.11.0-h7a5bd25_0 
+  libzlib            conda-forge/osx-arm64::libzlib-1.2.13-hfb2fe0b_6 
+  markdown           conda-forge/noarch::markdown-3.6-pyhd8ed1ab_0 
+  markupsafe         conda-forge/osx-arm64::markupsafe-3.0.2-py310hc74094e_1 
+  multidict          conda-forge/osx-arm64::multidict-6.1.0-py310hdf261b0_1 
+  oauthlib           conda-forge/noarch::oauthlib-3.2.2-pyhd8ed1ab_1 
+  opt_einsum         conda-forge/noarch::opt_einsum-3.4.0-pyhd8ed1ab_1 
+  platformdirs       conda-forge/noarch::platformdirs-4.3.6-pyhd8ed1ab_1 
+  pooch              conda-forge/noarch::pooch-1.8.2-pyhd8ed1ab_1 
+  propcache          conda-forge/osx-arm64::propcache-0.2.1-py310h078409c_0 
+  protobuf           conda-forge/osx-arm64::protobuf-4.21.12-py310h0f1eb42_0 
+  pyasn1             conda-forge/noarch::pyasn1-0.6.1-pyhd8ed1ab_2 
+  pyasn1-modules     conda-forge/noarch::pyasn1-modules-0.4.1-pyhd8ed1ab_1 
+  pycparser          conda-forge/noarch::pycparser-2.22-pyh29332c3_1 
+  pyjwt              conda-forge/noarch::pyjwt-2.10.1-pyhd8ed1ab_0 
+  pyopenssl          conda-forge/noarch::pyopenssl-24.3.0-pyhd8ed1ab_0 
+  pysocks            conda-forge/noarch::pysocks-1.7.1-pyha55dd90_7 
+  python-flatbuffers conda-forge/noarch::python-flatbuffers-24.12.23-pyhe33e51e_0 
+  python_abi         conda-forge/osx-arm64::python_abi-3.10-5_cp310 
+  pyu2f              conda-forge/noarch::pyu2f-0.1.5-pyhd8ed1ab_1 
+  re2                conda-forge/osx-arm64::re2-2023.02.01-hb7217d7_0 
+  requests           conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_1 
+  requests-oauthlib  conda-forge/noarch::requests-oauthlib-2.0.0-pyhd8ed1ab_1 
+  rsa                conda-forge/noarch::rsa-4.9-pyhd8ed1ab_1 
+  scipy              conda-forge/osx-arm64::scipy-1.10.1-py310ha0d8a01_0 
+  snappy             conda-forge/osx-arm64::snappy-1.1.10-h17c5cce_0 
+  tensorboard        conda-forge/noarch::tensorboard-2.11.2-pyhd8ed1ab_0 
+  tensorboard-data-~ conda-forge/osx-arm64::tensorboard-data-server-0.6.1-py310hfc83b78_4 
+  tensorboard-plugi~ conda-forge/noarch::tensorboard-plugin-wit-1.8.1-pyhd8ed1ab_0 
+  tensorflow         conda-forge/osx-arm64::tensorflow-2.11.0-cpu_py310h6ecea76_0 
+  tensorflow-base    conda-forge/osx-arm64::tensorflow-base-2.11.0-cpu_py310hb1e6bfe_0 
+  tensorflow-estima~ conda-forge/osx-arm64::tensorflow-estimator-2.11.0-cpu_py310h238a819_0 
+  termcolor          conda-forge/noarch::termcolor-2.5.0-pyhd8ed1ab_1 
+  typing-extensions  conda-forge/noarch::typing-extensions-4.12.2-hd8ed1ab_1 
+  typing_extensions  conda-forge/noarch::typing_extensions-4.12.2-pyha770c72_1 
+  urllib3            conda-forge/noarch::urllib3-2.3.0-pyhd8ed1ab_0 
+  werkzeug           conda-forge/noarch::werkzeug-3.1.3-pyhd8ed1ab_1 
+  wrapt              conda-forge/osx-arm64::wrapt-1.17.0-py310h078409c_0 
+  yarl               conda-forge/osx-arm64::yarl-1.18.3-py310h078409c_0 
+  zipp               conda-forge/noarch::zipp-3.21.0-pyhd8ed1ab_1 
+  zstandard          conda-forge/osx-arm64::zstandard-0.23.0-py310h2665a74_1 
+
+The following packages will be UPDATED:
+
+  openssl              pkgs/main::openssl-3.0.15-h80987f9_0 --> conda-forge::openssl-3.4.0-h81ee809_1 
+  zlib                    pkgs/main::zlib-1.2.13-h18a0788_1 --> conda-forge::zlib-1.2.13-hfb2fe0b_6 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  python               pkgs/main::python-3.10.16-hb885b13_1 --> conda-forge::python-3.10.13-h2469fbe_1_cpython 
+
+The following packages will be DOWNGRADED:
+
+  numpy                               2.0.1-py310h3b2db8e_1 --> 1.26.4-py310h3b2db8e_0 
+  numpy-base                          2.0.1-py310ha9811e2_1 --> 1.26.4-py310ha9811e2_0 
+
+
+Proceed ([y]/n)? Invalid choice: 
+Proceed ([y]/n)? Invalid choice: a
+Proceed ([y]/n)? Invalid choice: 
+Proceed ([y]/n)? Invalid choice: 
+Proceed ([y]/n)? Invalid choice: ob
+Proceed ([y]/n)? Invalid choice: 
+Proceed ([y]/n)? Invalid choice: oa
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
